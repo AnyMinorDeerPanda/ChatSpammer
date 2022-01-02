@@ -1,0 +1,8 @@
+return (function()
+  
+  -- Load Window Renderer
+  local window = loadstring(game:HttpGet('https://raw.githubusercontent.com/AnyMinorDeerPanda/ChatSpammer/main/WindowRenderer'))();
+
+  -- Load Main Script
+  loadstring(game:HttpGet('https://raw.githubusercontent.com/AnyMinorDeerPanda/ChatSpammer/main/MainScript'))(window);
+end);
