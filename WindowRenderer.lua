@@ -133,6 +133,6 @@ return (function()
 
   local UICorner4 = Instance.new("UICorner")
   UICorner4.Parent = StartButton
-
-  return XSpam
+  
+  XSpam.Parent = game:GetService("Players").LocalPlayer.PlayerGui
 end)
