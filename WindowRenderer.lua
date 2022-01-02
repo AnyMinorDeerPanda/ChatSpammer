@@ -1,4 +1,4 @@
-render = function()
+return (function()
   local XSpam = Instance.new("ScreenGui")
   XSpam.Name = "XSpam"
   XSpam.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
@@ -135,6 +135,4 @@ render = function()
   UICorner4.Parent = StartButton
 
   return XSpam
-end
-
-return render
+end)
