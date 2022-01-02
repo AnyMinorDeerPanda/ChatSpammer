@@ -13,4 +13,4 @@ return (function(window)
       wait(window.Contents.Settings.TextBox.Text)
     end
   end
-end)
+end);
