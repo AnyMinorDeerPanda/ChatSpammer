@@ -118,4 +118,4 @@ TextBox1.Parent = Settings
 local UICorner3 = Instance.new("UICorner")
 UICorner3.Parent = TextBox1
 
-XSpam.Parent = game:GetService("StarterGui")
+return XSpam
