@@ -132,4 +132,5 @@ StartButton.Parent = Settings
 
 local UICorner4 = Instance.new("UICorner")
 UICorner4.Parent = StartButton
+
 return XSpam
