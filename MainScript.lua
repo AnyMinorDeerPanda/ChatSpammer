@@ -1,4 +1,4 @@
-main = function(window)
+return (function(window)
   script.Parent.MouseButton1Click:Connect(function()
     if (window.Contents.Settings.StartButton.Text == "Start") then
       window.Contents.Settings.StartButton.Text = "Stop"
@@ -13,6 +13,4 @@ main = function(window)
       wait(window.Contents.Settings.TextBox.Text)
     end
   end
-end
-
-return main
+end)
