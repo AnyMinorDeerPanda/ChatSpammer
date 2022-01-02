@@ -135,4 +135,5 @@ return (function()
   UICorner4.Parent = StartButton
   
   XSpam.Parent = game:GetService("Players").LocalPlayer.PlayerGui
-end)
+  return XSpam;
+end);
