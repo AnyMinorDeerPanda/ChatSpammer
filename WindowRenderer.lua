@@ -118,4 +118,18 @@ TextBox1.Parent = Settings
 local UICorner3 = Instance.new("UICorner")
 UICorner3.Parent = TextBox1
 
+local StartButton = Instance.new("TextButton")
+StartButton.Name = "StartButton"
+StartButton.Size = UDim2.new(0, 57, 0, 27)
+StartButton.Position = UDim2.new(0.8035191, 0, 0.3484893, 0)
+StartButton.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+StartButton.FontSize = Enum.FontSize.Size14
+StartButton.TextSize = 14
+StartButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+StartButton.Text = "Start"
+StartButton.Font = Enum.Font.SourceSans
+StartButton.Parent = Settings
+
+local UICorner4 = Instance.new("UICorner")
+UICorner4.Parent = StartButton
 return XSpam
